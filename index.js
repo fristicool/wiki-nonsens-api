@@ -7,7 +7,7 @@ var artikelController = require('./controllers/artikelController.js');
 
 var app = express();
 app.use(bodyParser.json());
-app.use(cors({ origin: 'http://localhost:4200' }));
+app.use(cors());
 
 const PORT = process.env.PORT || 3000
 
